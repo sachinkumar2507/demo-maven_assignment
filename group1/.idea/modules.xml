@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/assign/assign.iml" filepath="$PROJECT_DIR$/assign/assign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assign/cal-api/calapi.iml" filepath="$PROJECT_DIR$/assign/cal-api/calapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assign/cal-impl/calimpl.iml" filepath="$PROJECT_DIR$/assign/cal-impl/calimpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session1.iml" filepath="$PROJECT_DIR$/session1.iml" />
+    </modules>
+  </component>
+</project>

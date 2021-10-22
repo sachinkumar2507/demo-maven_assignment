@@ -1,0 +1,30 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>com.example</groupId>
+  <artifactId>assign</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>cal-api</module>
+    <module>cal-impl</module>
+  </modules>  
+  <version>1.0-SNAPSHOT</version> 
+    <parent>
+        <artifactId>session1</artifactId>
+        <groupId>com.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>11</source>
+                        <target>11</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
